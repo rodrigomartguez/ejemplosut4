@@ -52,8 +52,14 @@ public class Calculadora {
                 case 5: //área de circunferencia
                       System.out.println("Introduce el valor para el radio");
                       a = sc.nextDouble();
-                      
-                case 7:
+                      res = 3.14 * a * a;
+                      System.out.println("El área de la circunferencia es: " + res);    
+                case 6: //longitud de la circunferencia
+                      System.out.println("Introduce el valor para el radio");
+                      double r = sc.nextDouble();
+                      res = 2 * 3.14 * r;
+                      System.out.println("la longitud de la circunferencia es: " + res);    
+                case 7: //Salir
                     System.out.println("Salir");                    
                     break;
                 default:
